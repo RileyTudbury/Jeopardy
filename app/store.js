@@ -2,8 +2,8 @@ import Question from "./Models/Question.js";
 
 let _state = {
   activeQuestion: new Question({ title: "Question" }),
-  /** @type {Question[]} */
-  questions: []
+  /** @type {Question} */
+  questions: null
 };
 
 /** Collection of listeners to be called based on keyed state changes
